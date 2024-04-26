@@ -111,7 +111,7 @@ def add_path(batch_size: int):
             else:
                 print("Failed to download", extension["name"])
         if count == 0:
-            print("Nothing added, continue")
+            #print("Nothing added, continue")
             continue
 
         #Save
